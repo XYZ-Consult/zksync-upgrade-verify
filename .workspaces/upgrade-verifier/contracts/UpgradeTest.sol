@@ -28,7 +28,7 @@ contract UpgradeTest {
     }
 
     function see() public view returns (bytes32) {
-        UpgradeProposal memory proposal = UpgradeProposal(calls, 0x0000000000000000000000000000000000000000, 0x3240000000000000000000000000000000000000000000000000000000000324);
+        UpgradeProposal memory proposal = UpgradeProposal(calls, 0xfC4cf3248A8f5fbA7Fa6bD67a3BB43cfc7514e55, 0x3240000000000000000000000000000000000000000000000000000000000324);
         return keccak256(abi.encode(proposal));
     }
 }
