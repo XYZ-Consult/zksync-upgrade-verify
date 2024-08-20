@@ -24,7 +24,7 @@ contract UpgradeTest {
 
     function setCalls() public {
         delete calls;
-        calls.push(Call(0x9b956d242e6806044877c7c1b530d475e371d544, 0, hex"0x691616c5000000000000000000000000e95141dd86828d23c2aa8ed518644af5e4216d79"));
+        calls.push(Call(0x9B956d242e6806044877C7C1B530D475E371d544, 0, hex"691616c5000000000000000000000000e95141dd86828d23c2aa8ed518644af5e4216d79"));
     }
 
     function see() public view returns (bytes32) {
